@@ -1,0 +1,101 @@
+body {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-image: url(Homepage.png);
+  background-size: cover;
+  width: 880px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.menu form{
+  max-width: 280px;
+  height: 490px;
+  margin: 0 -25px;
+  padding: 47px;
+  background-color: rgb(255, 255, 255, 0.4 );
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.form-head {
+  padding: 39px;
+  margin-top: 70px;
+}
+
+.h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600px;
+  width: 194px;
+  height: 32px;
+  line-height: 32px;
+  text-align: left;
+  letter-spacing: 0cm;
+  color: #101010;
+}
+
+.letters{
+  padding-top: 12px;
+}
+
+input {
+  width: 245px;
+  height: 18px;
+  padding: 10px;
+  top: 69px;
+  left: 1px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  border-bottom: 1px solid #E0DEDE;
+  outline: none;
+}
+
+.eyeimage{
+  margin-left: -30px;
+  width: 15px;
+  cursor: pointer
+}
+
+.register {
+ background-color: #6da01e;
+ /* padding: 0.5rem 6.6rem; */
+ width: 260px;
+ height: 33px;
+ border: none;
+ font-size: 18px;
+ border-radius: 8px;
+ color: white;
+ cursor: pointer;
+}
+.register:hover{
+  background-color: #43660f;
+}
+.btn{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.gog{
+  width: 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.google-btn{
+  padding: 0.4rem 3.1rem;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #6da01e;
+  cursor: pointer;
+}
+.google {
+  display: flex;
+  align-items: baseline;
+}
+
+.login a{
+  text-decoration: none;
+  color: #6da01e;
+}
